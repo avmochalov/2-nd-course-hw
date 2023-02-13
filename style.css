@@ -3,10 +3,55 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 .main {
   height: 1024px;
   background-image: url(./pic/bgi.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.main__heading {
+  width: 750px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 217px;
+}
+.main__text {
+  width: 480px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.main__text--bold {
+  font-weight: 700;
+}
+.main__btn {
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 234.06px;
+  height: 48.6px;
+  background: #9C0332;
+  border-radius: 30px;
+}
+.main__btn:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
