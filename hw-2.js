@@ -5,39 +5,39 @@ a = 20;
 alert(a);
 
 // Задание 2
-let firstIphone = 2007;
+const firstIphone = 2007;
 alert(`Год выпуска первого iPhone: ${firstIphone}`);
 
 // Задание 3
-let jsCreatorName= 'Брендан Эйх';
+const jsCreatorName = 'Брендан Эйх';
 alert(`Cоздатель языка JavaScript: ${jsCreatorName}`);
 
 // Задание 4
 let b = 10;
 let c = 2;
 // let c = a+b;
-alert(b+c);
-alert(b-c);
-alert(b*c);
-alert(b/c);
+alert(b + c);
+alert(b - c);
+alert(b * c);
+alert(b / c);
 
 // Задание 5
-let result = 2**5;
+let result = 2 ** 5;
 alert(result);
 
 // Задание 6
 let d = 9;
 let e = 2;
-alert(d%e);
+alert(d % e);
 
 // Задание 7
 let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
 num++;
-num++;
-num++;
-num++;
-num++;
-num++;
+num--;
 alert(num);
 
 // Задание 8
