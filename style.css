@@ -88,4 +88,42 @@ body {
 }
 .games__block--3 {
   background-image: url(./pic/game3.png);
+}
+
+@media (max-width: 375px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main {
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: -213px center;
+  }
+  .main__heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    width: 343px;
+  }
+  .main__text {
+    width: 343px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .games {
+    flex-direction: column;
+    align-items: center;
+  }
+  .games__block {
+    width: 343px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
