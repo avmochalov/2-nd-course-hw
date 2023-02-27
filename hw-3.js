@@ -31,17 +31,25 @@ alert(Number(a) + Number(b));
 
 // Задание 5
 let numberOfMonth = Number(prompt('Введите номер месяца'));
-switch (true) {
-    case numberOfMonth === 12 || numberOfMonth === 1 || numberOfMonth === 2:
+switch (numberOfMonth) {
+    case 12:
+    case 1:
+    case 2:
         console.log('Зима');
         break;
-    case numberOfMonth === 3 || numberOfMonth === 4 || numberOfMonth === 5:
+    case 3:
+    case 4:
+    case 5:
         console.log('Весна');
         break;
-    case numberOfMonth === 6 || numberOfMonth === 7 || numberOfMonth === 8:
+    case 6:
+    case 7:
+    case 8:
         console.log('Лето');
         break;
-    case numberOfMonth === 9 || numberOfMonth === 10 || numberOfMonth === 11:
+    case 9:
+    case 10:
+    case 11:
         console.log('Осень');
         break;
     case numberOfMonth > 13:

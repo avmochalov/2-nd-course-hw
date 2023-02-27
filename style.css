@@ -79,6 +79,7 @@ body {
   padding: 32px;
   border-radius: 16px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .games__block--1 {
   background-image: url(./pic/game1.png);
