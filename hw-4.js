@@ -26,7 +26,7 @@ for (let a = 7; a <= 22; a++) {
 }
 
 // Задание 4
-let obj = {
+const obj = {
     Коля: '200',
     Вася: '300',
     Петя: '400'
@@ -37,7 +37,7 @@ for (let name in obj) {
 }
 
 // Задание 5
-num = 0;
+let num = 0;
 for (let n = 1000; n >= 50; n /= 2) {
     console.log(n);
     num++;
