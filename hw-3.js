@@ -52,8 +52,6 @@ switch (numberOfMonth) {
     case 11:
         console.log('Осень');
         break;
-    case numberOfMonth > 13:
-        break;
     default:
         break;
 }

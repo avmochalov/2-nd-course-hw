@@ -51,9 +51,11 @@ body {
   height: 48.6px;
   background: #9C0332;
   border-radius: 30px;
+  transition: 0.25s;
 }
 .main__btn:hover {
   cursor: pointer;
+  filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.5));
 }
 
 .games {
@@ -91,6 +93,32 @@ body {
   background-image: url(./pic/game3.png);
 }
 
+.firstGame {
+  background: #000915;
+  padding-top: 282px;
+  padding-bottom: 282px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstGame__content--heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.firstGame__content--text {
+  width: 584px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 375px) {
   .center {
     padding-left: 16px;
@@ -126,5 +154,32 @@ body {
   .games__block {
     width: 343px;
     height: 300px;
+  }
+  .firstGame {
+    flex-wrap: wrap;
+    gap: 64px;
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .firstGame__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .firstGame__content--heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .firstGame__content--text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .firstGame--img {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
