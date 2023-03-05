@@ -39,7 +39,7 @@ sixthArray.pop();
 sixthArray.reverse();
 console.log(sixthArray);
 
-// Задание 7
+// Задание 7 v1
 let seventhArray = [9, 8, 7, 6, 5];
 let i = 0;
 let arrayCheck = Number(prompt('Введите число от 1 до 10'));
@@ -53,6 +53,14 @@ if (i >= 1) {
 }
 if (i === 0) {
     console.log('Введенное число отсутствует в данном массиве');
+}
+
+// Задание 7 v2
+let search = seventhArray.includes(Number(prompt('Введите число от 1 до 10')));
+if (search === true) {
+    console.log('Введенное число содержится в данном массиве');
+} else {
+    console.log('Введенное число не содержится в данном массиве');
 }
 
 // Задание 8
