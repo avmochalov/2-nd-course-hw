@@ -34,8 +34,62 @@
 // console.log(fifthArray);
 
 // Задание 6
-let sixthArray = [9, 8, 7, 'a', 6, 5];
-sixthArray.sort();
-sixthArray.pop();
-sixthArray.reverse();
-console.log(sixthArray);
+// let sixthArray = [9, 8, 7, 'a', 6, 5];
+// sixthArray.sort();
+// sixthArray.pop();
+// sixthArray.reverse();
+// console.log(sixthArray);
+
+// Задание 7
+// let seventhArray = [9, 8, 7, 6, 5];
+// let i = 0;
+// let arrayCheck = Number(prompt('Введите число от 1 до 10'));
+// seventhArray.forEach((el) => {
+//     if (el === arrayCheck) {
+//         i++;
+//     }
+// })
+// if (i >= 1) {
+//     console.log(`Введенное число содержится в данном массиве, количество совпадений = ${i}`);
+// }
+// if (i === 0) {
+//     console.log('Введенное число отсутствует в данном массиве');
+// }
+
+// Задание 8
+// let eighthString = 'abcdef';
+// console.log(eighthString);
+// let eighthArray = eighthString.split('');
+// eighthArray.reverse();
+// eighthString = eighthArray.join('');
+// console.log(eighthString);
+
+// Задание 9
+// let ninthArray = [[1, 2, 3,],[4, 5, 6]];
+// console.log(ninthArray);
+// ninthArray = ninthArray.flat(1);
+// console.log(ninthArray);
+
+// Задание 10
+// let tenthArray = [1, 5, 2, 7, 2, 6];
+// let tenthCounter = 0;
+// for (const el of tenthArray) {
+// tenthCounter += el;
+// console.log(tenthCounter);
+// }
+
+//Задание 11
+let eleventhArray = [];
+let minValue = 0;
+let maxValue = 10;
+let arrayElement;
+function randomArray() {
+    for (let i = 0; i < 10; i++) {
+        arrayElement = Math.floor(Math.random() * (maxValue - minValue) + minValue);
+        eleventhArray.push(arrayElement);
+    }
+}
+randomArray();
+console.log(eleventhArray);
+const evenArray = eleventhArray.filter(element => element % 2 === 0);
+console.log(evenArray);
