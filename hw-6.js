@@ -79,17 +79,25 @@
 // }
 
 //Задание 11
-let eleventhArray = [];
-let minValue = 0;
-let maxValue = 10;
-let arrayElement;
-function randomArray() {
-    for (let i = 0; i < 10; i++) {
+// let eleventhArray = [];
+function randomArray(minValue, maxValue, maxLength) {
+    let arrayElement;
+    let randomArray = [];
+    for (let i = 0; i < maxLength; i++) {
         arrayElement = Math.floor(Math.random() * (maxValue - minValue) + minValue);
-        eleventhArray.push(arrayElement);
+        randomArray.push(arrayElement);
     }
+    return randomArray;
 }
-randomArray();
-console.log(eleventhArray);
-const evenArray = eleventhArray.filter(element => element % 2 === 0);
-console.log(evenArray);
+// eleventhArray = randomArray(0, 10, 10);
+// console.log(eleventhArray);
+// const evenArray = eleventhArray.filter(element => element % 2 === 0);
+// console.log(evenArray);
+
+//Задание 12
+let twelfthArray = randomArray(1, 10, 6);
+let arrayLength = twelfthArray.length;
+console.log(twelfthArray);
+const mean = twelfthArray.reduce((a, b) => a + b) / arrayLength;
+console.log(mean);
+
