@@ -1,12 +1,12 @@
 // Задание 1
-let firstArray = [1, 5, 4, 10, 0, 3];
+const firstArray = [1, 5, 4, 10, 0, 3];
 for (const el of firstArray) {
 	console.log(el);
     if (el == 10) break;
 }
 
 // Задание 2
-let secondArray = [1, 5, 4, 10, 0, 3];
+const secondArray = [1, 5, 4, 10, 0, 3];
 secondArray.forEach((el, index) => {
     if (el == 4) {
         console.log(`${index}`);
@@ -19,7 +19,7 @@ thirdArray = thirdArray.join(' ');
 console.log(thirdArray);
 
 // Задание 4
-let fourthArray = [];
+const fourthArray = [];
 for (let i = 0; i < 3; i++) {
     fourthArray.push([1, 1, 1]);
 }
