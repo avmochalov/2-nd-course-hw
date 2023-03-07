@@ -2,18 +2,18 @@
 // let str = String(prompt('Введите текст'));
 // console.log(str.toUpperCase());
 
-// // Задание 2
+// Задание 2
 // let resultArray = [];
 // function searchStart(arr, str) {
 //     arr.forEach(element => {
 //         if (element.toLowerCase().startsWith(str.toLowerCase())) {
 //             resultArray.push(element);
-//             return resultArray;
 //         }
 //     });
+//     console.log(resultArray);
 // }
 // searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'); // ['кошка', 'комар']
-// console.log(resultArray);
+
 
 // // Задание 3
 // const value = 32.58884;
@@ -49,3 +49,26 @@
 //     console.log(seventhRandomResult);
 // }
 // seventhRandomValue(Number(prompt('Введите любое число')), Number(prompt('Введите любое число, значение которого меньше, чем у первого числа')));
+
+// // Задание 8
+// let eighthСurrentDate = new Date();
+// console.log(currentDate);
+
+// // Задание 9
+// let ninthСurrentDate = new Date("07 March 2023");
+// ninthСurrentDate.setDate(ninthСurrentDate.getDate() + 73);
+// console.log(ninthСurrentDate);
+
+// // Задание 10
+// let tenthСurrentDate = new Date();
+// function dataView(tenthСurrentDate) {
+//     const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+//     const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня",
+//         "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
+//     let date = tenthСurrentDate.getDate() + ' ' + months[tenthСurrentDate.getMonth()] + ' ' + tenthСurrentDate.getFullYear() + ' ' + '-' + ' ' + 'это' + ' ' + days[tenthСurrentDate.getDay()] + ', ' + tenthСurrentDate.getHours() + ' : ' + tenthСurrentDate.getMinutes() + ' : ' + tenthСurrentDate.getSeconds();
+//     console.log(date);
+// }
+// dataView(tenthСurrentDate);
+
+
+
