@@ -69,7 +69,7 @@ function dataView(tenthСurrentDate) {
 }
 dataView(tenthСurrentDate);
 
-// // Задание 11
+// Задание 11
 function fruitsGame(params) {
     let fruitsArray = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
     fruitsArray = fruitsArray.sort(() => Math.random() - 0.5);

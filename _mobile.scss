@@ -17,11 +17,13 @@
             font-weight: 700;
             font-size: 32px;
             line-height: 39px;
-            width: 343px;
+            width: 100%;
+            max-width: 343px;
         }
 
         &__text {
-            width: 343px;
+            width: 100%;
+            max-width: 343px;
             text-align: center;
             font-style: normal;
             font-weight: 300;
@@ -35,7 +37,8 @@
         align-items: center;
 
         &__block {
-            width: 343px;
+            width: 100%;
+            max-width: 343px;
             height: 300px;
         }
     }
@@ -52,6 +55,8 @@
             align-items: center;
 
             &--heading {
+                width: 100%;
+                max-width: 265px;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 39px;
@@ -61,14 +66,16 @@
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 22px;
-                width: 343px;
+                width: 100%;
+                max-width: 343px;
                 text-align: center;
             }
         }
 
 
         &--img {
-            width: 344px;
+            width: 100%;
+            max-width: 344px;
             height: 236px;
         }
 
