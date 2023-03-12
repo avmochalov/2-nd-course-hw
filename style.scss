@@ -104,16 +104,18 @@ body {
     }
 }
 
-.firstGame {
+.game__block {
     background: #000915;
-    padding-top: 282px;
-    padding-bottom: 282px;
+    padding-top: 233px;
+    padding-bottom: 233px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     &__content {
         &--heading {
+            width: 100%;
+            max-width: 364px;
             font-style: normal;
             font-weight: 700;
             font-size: 48px;
@@ -123,7 +125,8 @@ body {
         }
 
         &--text {
-            width: 584px;
+            width: 100%;
+            max-width: 584px;
             font-style: normal;
             font-weight: 300;
             font-size: 18px;
@@ -132,6 +135,34 @@ body {
             margin-bottom: 32px;
         }
     }
+
+    &--img {
+        width: 100%;
+        max-width: 485px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .center {
+        padding-left: calc(50% - 430px);
+        padding-right: calc(50% - 430px);
+    }
+
+    .game__block {
+        &__content {
+            &--text {
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+
+        &--img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+    }
+
 }
 
 @import 'mobile';
