@@ -89,5 +89,3 @@ function fruitsGame(params) {
             alert('Вы ошиблись!');
         }
 }
-
-
