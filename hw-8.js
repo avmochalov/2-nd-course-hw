@@ -63,7 +63,7 @@ function showDate(time) {
 }
 showDate(30);
 
-Задание 5
+// Задание 5
 function calling() {
     console.log('Звоню!')
 };
